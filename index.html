@@ -9,12 +9,11 @@ Swim Split Video Support
 </title>
 <style>
 body {
+    margin: 0;
     font-family:
         -apple-system,
         BlinkMacSystemFont,
         sans-serif;
-    margin: 0;
-    padding: 0;
     background:
         linear-gradient(
             135deg,
@@ -25,14 +24,17 @@ body {
     color: white;
 }
 .container {
-    max-width: 850px;
+    max-width: 900px;
     margin: auto;
     padding:
-        50px 24px;
+        40px 24px;
 }
 h1 {
+    margin-bottom: 6px;
     color: #56d4ff;
-    margin-bottom: 10px;
+}
+h2 {
+    color: #56d4ff;
 }
 .card {
     background:
@@ -45,14 +47,41 @@ h1 {
     border-radius: 20px;
     padding: 24px;
     margin-top: 20px;
+    border:
+        1px solid rgba(
+            255,
+            255,
+            255,
+            0.10
+        );
+}
+.workflow-step {
+    padding: 10px 14px;
+    margin: 8px 0;
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.06
+        );
+    border-radius: 12px;
 }
 a {
     color: #56d4ff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 .footer {
     margin-top: 40px;
     opacity: 0.65;
-    font-size: 0.9rem;
+    text-align: center;
+}
+.tagline {
+    font-size: 1.1rem;
+    opacity: 0.85;
 }
 </style>
 </head>
@@ -61,18 +90,80 @@ a {
 <h1>
 🏊 Swim Split Video
 </h1>
-<p>
-Record swim race videos,
-capture race splits,
-and share finished race results.
+<p class="tagline">
+Record swim race videos, capture split times, and share race results.
 </p>
+<div class="card">
+<h2>
+What Does Swim Split Video Do?
+</h2>
+<p>
+Swim Split Video combines race video recording,
+a race clock,
+and split timing into a single app.
+Parents,
+coaches,
+and swimmers can capture an entire race while recording split times and afterward review and share the results.
+</p>
+</div>
+<div class="card">
+<h2>
+Typical Workflow
+</h2>
+<div class="workflow-step">
+1. Open Camera
+</div>
+<div class="workflow-step">
+2. Add Race Information (Optional)
+</div>
+<div class="workflow-step">
+3. Set Zoom
+</div>
+<div class="workflow-step">
+4. Start Video
+</div>
+<div class="workflow-step">
+5. Start Race Clock
+</div>
+<div class="workflow-step">
+6. Tap Race Splits During The Race
+</div>
+<div class="workflow-step">
+7. End Race Clock
+</div>
+<div class="workflow-step">
+8. End Video
+</div>
+<div class="workflow-step">
+9. Review Results
+</div>
+<div class="workflow-step">
+10. Share Video Or CSV Split Report
+</div>
+</div>
+<div class="card">
+<h2>
+Frequently Asked Questions
+</h2>
+<p>
+<strong>How do I remove the watermark?</strong><br>
+Purchase Swim Split Video Pro from the Pro screen.
+</p>
+<p>
+<strong>How do I restore a purchase?</strong><br>
+Open the Pro screen and tap Restore Purchases.
+</p>
+<p>
+<strong>How do I export splits?</strong><br>
+Open Saved Recordings, choose a race, then tap Share and select Share Splits CSV.
+</p>
+</div>
 <div class="card">
 <h2>
 Support
 </h2>
 <p>
-For questions, bug reports,
-or feature requests:
+Questions, bug reports, or feature requests:
 </p>
 <p>
 <a href="mailto:stevieleep@gmail.com">
@@ -85,11 +176,8 @@ stevieleep@gmail.com
 Privacy Policy
 </h2>
 <p>
-View the privacy policy here:
-</p>
-<p>
 privacy.html
-Privacy Policy
+View Privacy Policy
 </a>
 </p>
 </div>
